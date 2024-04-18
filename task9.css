@@ -45,6 +45,6 @@ html {
 .card h2
 {
   font-size: 2em;
-  
+  line-height: 0.5em;
 }
 /* styles specific to the header and footer, and styles specific to the main business card contents.*/
