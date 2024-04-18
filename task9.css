@@ -13,7 +13,7 @@ html {
 /* Selectors to be matched up with rulesets */
 
 /* Rulesets to be matched up with selectors */
-.card article img
+.card
 {
   width: 35em;
   height: 12em;
@@ -21,6 +21,9 @@ html {
   background-color: red;
   border: 0.2em solid rgb(63, 52, 52);
   border-radius: 1.5em;
+  padding: 2.5em;
+  font-size: 2em;
+  line-height: 1em;
 }
 .card header
 {
@@ -39,11 +42,10 @@ html {
   font-size: 1.5em;
   line-height: 1.5em;
 }
-.card
+.card article img
 {
   max-height: 100%;
   float: right;
-  font-size: 2em;
-  line-height: 1em;
+  
 }
 /* styles specific to the header and footer, and styles specific to the main business card contents.*/
